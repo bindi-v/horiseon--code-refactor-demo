@@ -1,13 +1,14 @@
+/* Universal selector */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-
+/* body element */
 body {
     background-color: #d9dcd6;
 }
-
+/* h1 element, class-header and class-seo element style */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -42,7 +43,7 @@ a {
     color: #ffffff;
     text-decoration: none;
 }
-
+/* In main, p element, class and id style */
 p {
     font-size: 16px;
 }
@@ -71,7 +72,7 @@ p {
     display: inline-block;
     margin-left: 20px;
 }
-
+/* aside element, class, h3 element, img styles */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -98,7 +99,7 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
-
+/* Images in main, section style */
 .search-engine-optimization, .online-reputation-management, .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -116,7 +117,7 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/* footer element style */
 .footer { font-size: 20px;
     padding: 30px;
     clear: both;
